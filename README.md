@@ -1,6 +1,6 @@
 # 
 
-This project is a challenges of frontendmentor.io site 
+This project is a challenge of frontendmentor.io site 
 I implemented it by ReactJS
 
 to implement the code , i searched in internet and used  of solved codes, also i edited some code to improve it.
