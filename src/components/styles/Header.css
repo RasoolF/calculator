@@ -1,0 +1,12 @@
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    padding: 2rem 0;
+}
+
+.headerWrapper h1 {
+    font-size: 2rem;
+    color: var(--screenFG);
+}

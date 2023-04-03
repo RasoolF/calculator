@@ -1,0 +1,10 @@
+.screen {
+    width: 90%;
+    min-height: 9rem;
+    padding: .5rem 0;
+    background-color: var(--screenBG);
+    color: var(--screenFG);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}

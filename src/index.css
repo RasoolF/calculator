@@ -1,0 +1,117 @@
+[data-color-mode="theme1"] {
+
+  /* #### Backgrounds #### */
+  --mainBG: hsl(222, 26%, 31%);
+  --keypad-toggleBG: hsl(223, 31%, 20%);
+  --screenBG: hsl(224, 36%, 15%);
+
+
+  /* #### Keys #### */
+  --keyBG1: hsl(225, 21%, 49%);
+  --keyShadow1: hsl(224, 28%, 35%);
+  --keyBG2: hsl(6, 63%, 50%);
+  --keyShadow2: hsl(6, 70%, 34%);
+  --keyBG3: hsl(30, 25%, 89%);
+  --keyShadow3: hsl(28, 16%, 65%);
+  /* ####  Text #### */
+  --screenFG: #fff;
+  --commonKeyFG: hsl(221, 14%, 31%);
+  --spacialKeyFG: #fff;
+}
+
+[data-color-mode="theme2"] {
+
+  /* #### Backgrounds #### */
+  --mainBG: hsl(0, 0%, 90%);
+  --keypad-toggleBG: hsl(0, 5%, 81%);
+  --screenBG: hsl(0, 0%, 93%);
+
+  /* #### Keys #### */
+  --keyBG1: hsl(185, 42%, 37%);
+  --keyShadow1: hsl(185, 58%, 25%);
+  --keyBG2: hsl(25, 98%, 40%);
+  --keyShadow2: hsl(25, 99%, 27%);
+  --keyBG3: hsl(45, 7%, 89%);
+  --keyShadow3: hsl(35, 11%, 61%);
+  /* ####  Text #### */
+  --screenFG: hsl(60, 10%, 19%);
+  --commonKeyFG: hsl(60, 10%, 19%);
+  --spacialKeyFG: #fff;
+
+
+}
+
+[data-color-mode="theme3"] {
+
+  /* #### Backgrounds #### */
+  --mainBG: hsl(268, 75%, 9%);
+  --keypad-toggleBG: hsl(269, 66%, 15%);
+  --screenBG: hsl(270, 60%, 8%);
+
+  /* #### Keys #### */
+  --keyBG1: hsl(281, 89%, 26%);
+  --keyShadow1: hsl(285, 91%, 52%);
+  --keyBG2: hsl(176, 100%, 44%);
+  --keyShadow2: hsl(177, 92%, 70%);
+  --keyBG3: hsl(268, 47%, 21%);
+  --keyShadow3: hsl(290, 70%, 36%);
+  /* ####  Text #### */
+
+  --screenFG: hsl(52, 100%, 62%);
+  --commonKeyFG: hsl(52, 100%, 62%);
+  --spacialKeyFG: #fff;
+  ;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Spartan";
+}
+
+.container {
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background-color: var(--mainBG);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media screen and (max-width:375px) {
+  .App {
+    margin: auto;
+    min-width: 375px;
+  }
+
+  .container {
+    height: 100vh;
+	
+  }
+}
+
+@media screen and (min-width:400px) {
+  .App {
+    margin: auto;
+    height: 600px;
+    width: 400px;
+  }
+
+  .container {
+    height: 100vh;
+  }
+}

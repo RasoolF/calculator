@@ -1,0 +1,68 @@
+.themeSecWrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.themeNums {
+    width: 5.5rem;
+    margin: .1rem;
+    padding: .2rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.themeNums span {
+    margin: 0 .2rem;
+    font-size: 1rem;
+    color: var(--screenFG);
+    cursor: pointer;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom h1 {
+    font-size: 1.2rem;
+    color: var(--screenFG);
+
+}
+
+.themeIndicator {
+    border-radius: 2rem;
+    margin: .1rem;
+    padding: .2rem;
+    background-color: var(--keypad-toggleBG);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.themeIndicator span {
+    opacity: 0;
+    border-radius: 50%;
+    margin: .2rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: var(--keyBG2);
+    transition: all .4s ease-in-out;
+}
+
+.themeIndicator span.active {
+    opacity: 1;
+}
